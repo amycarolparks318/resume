@@ -1,0 +1,180 @@
+
+
+h1 {
+    background-color: var(--ltmain);
+    color: #000;
+    font-size: 60px;
+    font-family: shadow;
+    margin: 1rem;
+    text-align: center;
+   
+}
+
+.download p{
+    font-family: sour;
+    font-size: 20px;
+    color: var(--main);
+}
+
+.download-pic{
+    padding-bottom: 0;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.name-download{
+    background-color: var(--ltmain);
+    padding: 5% 2%;
+    line-height: 5ch;
+    text-align: center;
+}
+
+.download{
+    display: flex;
+    color: var(--main);
+    justify-content: center;
+    margin-top: 0;
+}
+
+.bg {
+    background-image: url("./assets/images/graffiti.png");
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.textbox {
+    align-items: center;
+    background-color: var(--main);
+    padding: 2%;
+    box-shadow: 10px 5px 5px #000;
+    background: radial-gradient(var(--main) 70%, var(--secondary));
+}
+
+h3 {
+    color: #000;
+    width: 100%;
+    font-size: 40px;
+    font-family: shadow;
+    text-align: center;
+    background: radial-gradient(var(--ltmain), var(--accent));
+}
+
+.bs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    min-width:33%;
+    margin: auto;
+    background-color: var(--ltmain);
+    font-family: sour;
+    text-align: center;
+    box-shadow: 2px 2px 20px var(--main);
+}
+
+.bs h4{
+    font-size: 24px;
+    background-color: var(--main);
+    margin: 0;
+    padding: 1.5rem 0;
+    width: 100%;
+}
+
+.edu, .skills{
+    display: flex;
+    max-width: 100%;
+    min-width:33%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: var(--ltmain);
+    font-family: sour;
+    text-align: center;
+}
+
+.degree, .skills-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 30%;
+    margin: auto;
+    background-color: var(--ltmain);
+    font-family: sour;
+    text-align: center;
+    box-shadow: 2px 2px 20px var(--main);
+    gap: 1%;
+}
+
+.edu h4{
+    width: 100%;
+    font-size: 24px;
+    background-color: var(--ltmain);
+    margin: 0;
+    padding: 1.5rem 0;
+    border-bottom: 4px solid var(--main);
+}
+
+
+article{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h5 {
+    color: #000;
+    font-size: 22px;
+    font-family: sour;
+    margin: 0;
+    text-align: left;
+    border-bottom: 4px solid var(--secondary);
+    border-top: 4px solid var(--secondary);
+    background-color: #f7f3f7;
+}
+
+ul {
+    font-family: sour;
+    font-size: 18px;
+}
+
+.exp{
+    background: radial-gradient(#f7f3f7, var(--accent));
+}
+
+.skills-head {
+    color: #000;
+    width: 100%;
+    font-size: 40px;
+    font-family: shadow;
+    text-align: center;
+    background: radial-gradient(var(--ltmain), var(--accent));
+}
+
+.skills h4{
+    width: 99%;
+    font-size: 20px;
+    border-bottom: 4px solid var(--main);
+    margin: 0;
+    padding: 1rem 0;
+}
+
+
+.footer{
+    margin: 1% 40% 1% 40%;
+    text-align: center;
+    background-color: var(--ltmain);
+    opacity: 0.85;
+}
+
+footer {
+    /* margin: 30px; */
+    text-align: center;
+    background-image: url(./assets/images/graffiti.png);
+}
+
+footer a {
+    color: var(--main);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

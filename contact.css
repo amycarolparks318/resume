@@ -1,0 +1,150 @@
+
+
+h1 {
+    background-color: var(--ltmain);
+    color: #000;
+    font-size: 60px;
+    font-family: shadow;
+    padding: 2%;
+    margin: 1rem;
+    text-align: center;
+    min-width: 600px;
+
+}
+
+.download p{
+    font-family: sour;
+    font-size: 20px;
+}
+
+.download-pic{
+    margin-top: 1rem;
+}
+
+.name-download{
+    background-color: var(--ltmain);
+    line-height: 3ch;
+}
+
+.download{
+    display: flex;
+    color: var(--main);
+    justify-content: center;
+    margin-top: 0;
+}
+
+h2 {
+    background-color: var(--ltmain);
+    color: #000;
+    font-family: shadow;
+    font-size: 26px;
+    padding: 2%;
+    margin: 1rem;
+    text-align: center;
+
+}
+
+h2 a {
+    font-size: 24px;
+    font-family: sour;
+    color: var(--main);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.bg {
+    background-image: url("./assets/images/graffiti.png");
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.textbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--main);
+    padding: 1%;
+    box-shadow: 10px 5px 5px #000;
+    background: radial-gradient(var(--main) 70%, var(--secondary));
+    justify-content: space-evenly;
+}
+
+.textbox h1 {
+    flex-basis: 50%;
+}
+
+.textbox h2 {
+    flex-basis: 30%;
+}
+
+h5 {
+    color: var(--secondary);
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 2%;
+    font-family: shadow;
+
+}
+
+
+form {
+    color: #000;
+    font-family: sour;
+    border: 2px solid var(--main);
+    padding: 2%;
+    margin: auto;
+    /* max-width: 80%; */
+    width: 50%;
+    position: relative;
+    margin-top: 2%;
+    background-color: var(--ltmain);
+    box-shadow: 10px 10px 10px var(--main);
+}
+
+
+input {
+    width: 100%;
+}
+
+.date {
+    font-family: sour;
+}
+
+.submit {
+    font-family: sour;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--secondary);
+   
+}
+
+.checkbox {
+    width: auto;
+}
+
+textarea {
+    width: 100%;
+}
+
+.footer {
+    margin: 3% 40% 1% 40%;
+    text-align: center;
+    background-color: var(--ltmain);
+    opacity: 0.85;
+}
+
+footer {
+    /* margin: 30px; */
+    text-align: center;
+    background-image: url(./assets/images/graffiti.png);
+}
+
+footer a {
+    color: var(--main);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
